@@ -23,7 +23,9 @@
 // Q1
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
-
+var sum = function (num1, num2) {
+    return num1 + numb2;
+};
 
 
 
@@ -61,7 +63,7 @@
 
 // Q6
 // Write a function called `madlib` that takes
-// 4 or more parameters (words). The function 
+// 4 or more parameters (words). The function
 // should insert the words into a pre-defined
 // sentence. Finally the function should return
 // that sentence.
