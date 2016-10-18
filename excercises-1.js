@@ -95,11 +95,21 @@ var getLength = function (aString) {
 };
 
 
-//other way to write :
-////////////////////////////////////////
-//     function getLengh (aString) {
-//       return aString.length;
-//     };
+// this is the other way to ask for the length without using the ".length" to call the function.
+
+var getLengthNoBuiltin = function (aString) {
+  var count = 0;
+  while (aString[count] !== undefined) {
+    count++;
+  }
+
+  return count;
+};
+
+getLengthNoBuiltin("")
+>undefined
+
+
 
 
 
@@ -118,11 +128,12 @@ var getLength = function (aString) {
 // the function should return `false`.
 
 var greaterThan = function (nums1, nums2) {
-if (nums1>nums2)
-  return true;
-else{
-  return false;
-}
+  if (nums1 < nums2)
+    return true;
+  }
+  else {
+    return false;
+  }
 };
 
 
@@ -142,10 +153,10 @@ else{
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-function greet (name) {
-  var name = ?
-  return "Hello, " + name;
+function greet (single) {
+  return "Hello, " + single + "!";
 };
+greet("Name")
 
 
 
@@ -173,9 +184,9 @@ function greet (name) {
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
-var madLib = function (a, b, c, d) {
+var madLib = function (sum, et, amisit, lux , est) {
+   return "Ego" + sum + "Deus" + et + "non" + amisit + "Dominous" + lux + "mea" + est + "." ;
 
-  return ;
 };
 
 
